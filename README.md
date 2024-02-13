@@ -60,18 +60,21 @@ The decade with the highest number of air accidents was the 1970s.
 
 From the 1980s to the present day, thanks to research, technological advancements, improvements in flight methods, and the implementation of increasingly stringent safety measures, there has been a downward trend in air accidents.
 
-![](01.Plane_crashes_by_year.png)
+![01 Plane_crashes_by_year](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/399d617b-a9cb-4f9b-b89b-e16d5ec1ed35)
+
 
 
 The number of deaths also remained under control during the 1920s. However, by the late 1940s, there was a sharp rise in deaths caused by plane crashes. This was also due to the widespread use of commercial flights. Similarly, since the 1980s, the number of deaths from plane crashes has been decreasing due to technological advancements, increased knowledge, and safety measures.
 
 
-![](02.Total_fatalities_per_year.png)
+![02 Total_fatalities_per_year](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/2a9a02a6-66a8-4af4-b526-7a8b9dafc04f)
+
 
 In the database, there were a significant number of rows containing the state (in the US) where the plane crash occurred. Upon summing all the rows containing state information, it was evident that the United States had the highest number of plane crashes, with nearly five times more accidents than the next country, which is Russia, followed by Mexico, Indonesia, and India.
 
 
-![](03.Plane_crashes_by_country.png)
+![03 Plane_crashes_by_country](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/e5f4343b-ad1c-45ce-84ab-3c4916adc65b)
+
 
 
 
@@ -82,14 +85,16 @@ These were the 5 aircraft that appeared most frequently in the records of air ac
 
 
 
-![](04.Top_5_Aircraft_types_with_the_most_accidents.png)
+![04 Top_5_Aircraft_types_with_the_most_accidents](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/1764bb85-b42d-4d03-8b6d-e24b910ba0fc)
+
 
 
 For this reason, an analysis was later conducted on the 5 aircraft with the most accidents over the years. It can be observed that the "Douglas DC3" was the aircraft model with the highest number of plane crashes and was used between the 1950s and 1980s, which was also the timeframe when aviation in general experienced the most accidents. Its use was discontinued after the 1980s.
 
 Another aircraft with numerous accidents during that period was the "Douglas C47"; however, it did not have even half the number of accidents as the "Douglas DC3." Currently, the aircraft model with the highest number of accidents is the "de Havilland Canada DHC-6 Twin Otter 300," which is a small aircraft mainly used for private flights with a low number of passengers.
 
-![](05.Crashes_by_aircraft_type_over_time.png)
+![05 Crashes_by_aircraft_type_over_time](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/a5f464a3-635d-43e8-bcd5-3c0af74fd2ba)
+
 
 ### **Act**
 
