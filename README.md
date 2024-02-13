@@ -1,1 +1,121 @@
-# Plane_Crash_Analysis
+# Plane Crash Analysis
+By Angela Escobar
+
+This project analyzes a database that records aviation accidents during the 20th and 21st centuries. The purpose is to gain insights into the nature of these accidents and the evolution of aviation progress over the years.
+
+
+### **Ask**
+
+What conclusions and insights can we draw about the history of aviation and its recordkeeping?
+
+### **Prepare**
+
+For this analysis project, the necessary metrics were identified in the preparation phase. Following this, the database was located, downloaded, and securely and systematically organized on the computer. Additionally, version control using Git was established to ensure the security of the information.
+
+### **Process**
+
+This database required significant cleaning as the information had not been stored in the most organized manner. Some of the most important tasks in this stage included correcting the data type of each column, splitting column contents for better information handling, creating new columns and additional dataframes for improved organization and management of information. The activities carried out are described in the list below; more detailed information can be found in the project code.
+
+
+* Check info type of each column
+* Correct date column
+* Convert the "date" column to the desired format
+* Change the date format to "yyyy/mm/dd"
+* Change the data type of the "date" column to Date
+* Correct time column 
+* Correct flight column type
+* Remove non-numeric characters from the "flight_no" column
+* Convert the "flight_no" column to integers
+* Split the "route" column into two separate columns by "-"(origin-destination)
+* Create a new column "fatalities_number" containing the first two characters from the "fatalities" column
+* Convert the "fatalities_number" column to integers
+* Create column "year"
+* Verify amount of operators
+* Create dataframe of counts grouped by state (for US)
+* Create dataframe of counts grouped by country
+* To sum up the dataframes from the US and the rest of the world.
+
+### **Analysis**
+
+
+After organizing the database in a clearer manner, the next step involved reviewing the insights that could be derived from the provided information. The specific points for analysis were defined as follows:
+
+* Evolution of the number of plane crashes over the decades.
+* Evolution of deaths caused by plane crashes over the decades.
+* Total number of plane crashes by country.
+* Analysis of countries with the highest number of air accidents.
+* Aircraft with the most air accidents.
+* Tracking the performance of aircraft with the most air accidents over the years.
+
+### **Share**
+
+*Following the completion of the necessary procedures for the analysis, the ensuing results were obtained, providing insights into the dataset under examination:*
+
+
+Around the 1920s, accidents were few, but they began to increase as aviation became more popular.
+
+By the late 1940s, when commercial flights started gaining more popularity, the most significant increase in air accidents was observed.
+
+The decade with the highest number of air accidents was the 1970s.
+
+From the 1980s to the present day, thanks to research, technological advancements, improvements in flight methods, and the implementation of increasingly stringent safety measures, there has been a downward trend in air accidents.
+
+![](01.Plane_crashes_by_year.png)
+
+
+The number of deaths also remained under control during the 1920s. However, by the late 1940s, there was a sharp rise in deaths caused by plane crashes. This was also due to the widespread use of commercial flights. Similarly, since the 1980s, the number of deaths from plane crashes has been decreasing due to technological advancements, increased knowledge, and safety measures.
+
+
+![](02.Total_fatalities_per_year.png)
+
+In the database, there were a significant number of rows containing the state (in the US) where the plane crash occurred. Upon summing all the rows containing state information, it was evident that the United States had the highest number of plane crashes, with nearly five times more accidents than the next country, which is Russia, followed by Mexico, Indonesia, and India.
+
+
+![](03.Plane_crashes_by_country.png)
+
+
+
+
+These were the 5 aircraft that appeared most frequently in the records of air accidents. It's important to consider the timeframe in which these aircraft were used and, consequently, the technology implemented for their operation. 
+
+
+
+
+
+![](04.Top_5_Aircraft_types_with_the_most_accidents.png)
+
+
+For this reason, an analysis was later conducted on the 5 aircraft with the most accidents over the years. It can be observed that the "Douglas DC3" was the aircraft model with the highest number of plane crashes and was used between the 1950s and 1980s, which was also the timeframe when aviation in general experienced the most accidents. Its use was discontinued after the 1980s.
+
+Another aircraft with numerous accidents during that period was the "Douglas C47"; however, it did not have even half the number of accidents as the "Douglas DC3." Currently, the aircraft model with the highest number of accidents is the "de Havilland Canada DHC-6 Twin Otter 300," which is a small aircraft mainly used for private flights with a low number of passengers.
+
+![](05.Crashes_by_aircraft_type_over_time.png)
+
+### **Act**
+
+Conclusions:
+
+* In the 1920s and 1930s, the number of accidents and deaths remained very controlled compared to the rest of the century.
+
+* In the 1940s, especially towards the end, the massification and increasing popularity of commercial flights had a direct impact on the increase in accidents and deaths. Unfortunately, many accidents were recorded, which were on an upward trend until the 1970s.
+
+* It is possible that World War II also contributed to the increase in plane crashes and overall aviation usage.
+
+* The 1970s were the period with the highest number of air accidents.
+
+* From the 1980s to the present day, the number of air accidents has been on a downward trend due to increased knowledge, technology, and implemented safety measures.
+
+* The United States has the highest number of registered air accidents, followed by Russia, Mexico, Indonesia, and India.
+
+* The "Douglas DC3" emerged as the aircraft model with the highest number of plane crashes between the 1950s and 1980s, coinciding with the peak era of aviation accidents.
+
+* Another aircraft with notable accidents during this period was the "Douglas C47," though it had fewer accidents compared to the "Douglas DC3."
+
+* Presently, the "de Havilland Canada DHC-6 Twin Otter 300," a small aircraft primarily used for private flights with few passengers, has the highest number of accidents.
+
+
+
+
+
+
+**__________________END OF STUDY CASE_______________**
