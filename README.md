@@ -95,6 +95,10 @@ Another aircraft with numerous accidents during that period was the "Douglas C47
 
 ![05 Crashes_by_aircraft_type_over_time](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/a5f464a3-635d-43e8-bcd5-3c0af74fd2ba)
 
+An interactive dashboard was developed in Power BI to summary all visualizations and conclusions, which can be accessed at the following [link](https://app.powerbi.com/groups/me/reports/9f713b16-cf0c-4425-ad58-8f92fc086973?pbi_source=desktop)
+
+![11](https://github.com/Angela1611/Plane_Crash_Analysis/assets/158333155/54a52b13-ea0e-4ebc-ae58-3c5465833aaa)
+
 
 ### **Act**
 
